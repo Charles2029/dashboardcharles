@@ -39,3 +39,20 @@ For your dashboard project, you'll write database queries using the Vercel Postg
 ## Static and Dynamic Rendering
 https://nextjs.org/learn/dashboard-app/static-and-dynamic-rendering
 
+
+## What is Dynamic Rendering?
+With dynamic rendering, content is rendered on the server for each user at request time (when the user visits the page). There are a couple of benefits of dynamic rendering:
+With dynamic rendering ,your application is only as fast as your slowest data fetch.
+
+## Streaming
+In the previous chapter, you made your dashboard page dynamic, however, we discussed how the slow data fetches can impact the performance of your application. Let's look at how you can improve the user experience when there are slow data requests.
+Streaming is a data transfer  technique that allows you to break down a route into smaller "chunks" and progressively stream them from the server to the client as they become ready.
+
+![alt text](image.png)
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+## 10: Partial Prerendering (Optional)
+
+
