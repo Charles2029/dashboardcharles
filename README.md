@@ -75,3 +75,12 @@ https://nextjs.org/learn/dashboard-app/partial-prerendering
 GOOD TO KNOW: IN HTML, you'd pass a URL to the action attribute. This URL  would be the destination where your form data should be submitted (usually an API endpoint).
 However, in React, the action attribute is considered a special prop - meaning React builds on top of it to allow actions to be invoked. 
 Behind the scenes, Server Actions create a POST API endpoint . This is why you don't need to create API endpoints manually when using ServerActions.
+
+Right now, we're not handling any errors. We'll do it in the next chapter. For now, let's move on to the next step.
+Right now, we're not handling any errors. We'll do it in the next chapter. For now, let's move on to the next step.
+
+
+
+## Further reading 
+In this chapter, you learned how to use Server Actions to mutate data. You also learned how to use the revalidatePath API to revalidate the Next.js cache and redirect to redirect the user to a new page.
+mutate data mutate data 
