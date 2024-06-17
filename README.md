@@ -100,3 +100,23 @@ https://nextjs.org/learn/dashboard-app/adding-authentication
 update the key in production enviroment:https://vercel.com/docs/projects/environment-variables
 
 
+## Adding Metadata
+https://nextjs.org/learn/dashboard-app/adding-metadata
+Metadata is crucial for SEO and shareability. In this chapter, we'll discuss how you can add metadata to your Next.js
+application.
+
+finish：
+Here are some resources to continue exploring Next.js:
+
+Next.js Documentation
+Next.js Templates:
+Admin Dashboard Template
+Next.js Commerce
+Blog Starter Kit
+Nextra: Docs Starter Kit
+Image Gallery Starter
+Next.js Repository
+Vercel YouTube
+Next.js App Router: Routing, Data Fetching, Caching
+Performance in React and Next.js (Lydia Hallie)
+Vercel Product Walkthrough
