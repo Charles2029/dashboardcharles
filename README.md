@@ -83,4 +83,20 @@ Right now, we're not handling any errors. We'll do it in the next chapter. For n
 
 ## Further reading 
 In this chapter, you learned how to use Server Actions to mutate data. You also learned how to use the revalidatePath API to revalidate the Next.js cache and redirect to redirect the user to a new page.
-mutate data mutate data 
+mutate data mutate data \
+
+## Handling Errors
+Handling Errors
+In the previous chapter, you learned how to mutate data using Server Actions. let's see how you can handle errors gracefully using JavaScript's try/catch statements and Next.js APIs.
+
+## Improving Accessibility
+https://nextjs.org/learn/dashboard-app/improving-accessibility
+
+If you'd like to learn more about accessibility, we recommend the Learn Accessibility course by 
+web.dev.（https://web.dev/）
+## Adding Authentication
+https://nextjs.org/learn/dashboard-app/adding-authentication
+
+update the key in production enviroment:https://vercel.com/docs/projects/environment-variables
+
+
