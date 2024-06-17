@@ -56,3 +56,22 @@ Streaming is a data transfer  technique that allows you to break down a route in
 ## 10: Partial Prerendering (Optional)
 
 
+![alt text](image-3.png)
+The <SideNav> component doesn't rely on data and is not personlized to the user, so it can be static.
+The components in <Page> rely on data that changes often and will be personalized to the user, so they can be dynamic.
+
+![alt text](image-4.png)
+What is Partial Prerendering?
+What is Partial prerendering?
+Next.js 14 contains a preview of Partial Prerendering - an experimental feature 
+that allows you to render a route with a static loading shell,while keeping some parts dynamic . In other words, you can isolate the dynamic parts of a route. For  example:
+![alt text](image-5.png)
+
+Partial Prerendering
+https://nextjs.org/learn/dashboard-app/partial-prerendering
+
+## Chapter 12 Mutating Data
+
+GOOD TO KNOW: IN HTML, you'd pass a URL to the action attribute. This URL  would be the destination where your form data should be submitted (usually an API endpoint).
+However, in React, the action attribute is considered a special prop - meaning React builds on top of it to allow actions to be invoked. 
+Behind the scenes, Server Actions create a POST API endpoint . This is why you don't need to create API endpoints manually when using ServerActions.
